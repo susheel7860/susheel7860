@@ -1,88 +1,55 @@
-# Susheel Kumar Pandey
+# Hi, I'm Susheel Kumar Pandey 👋
 
-Senior Software Engineer | AI, Computer Vision & GenAI
+### AI/ML Engineer: Computer Vision & LLM Automation
 
-📍 New Delhi, India  
-📧 susheel123pandey@gmail.com  
-🔗 LinkedIn: https://linkedin.com/in/susheel7860
+Senior Software Engineer at **MapmyIndia** (New Delhi) with **5 years** shipping production ML: real-time vision on edge devices, multi-agent LLM platforms, and geospatial intelligence. I like taking papers and prototypes and turning them into systems that run reliably at scale.
 
----
-
-## 👋 About Me
-
-I am a Senior Software Engineer with 3.8+ years of experience building **production-grade AI, Computer Vision, and LLM systems**.  
-I specialize in **multi-agent LLM architectures, real-time vision systems, geospatial intelligence, and scalable AI platforms**.
-
-I have delivered systems processing **1M+ daily records**, achieving **97%+ accuracy** in real-time environments with strong focus on **performance, reliability, and deployment**.
+🌐 **Portfolio:** [susheel7860.github.io](https://susheel7860.github.io) · 💼 [LinkedIn](https://linkedin.com/in/susheel7860) · 📧 susheel123pandey@gmail.com
 
 ---
 
-## 🚀 Key Expertise
+## 🔭 What I work on
 
-### Artificial Intelligence & Computer Vision
-
-- YOLO v5 / v7 / v8 (real-time detection & edge optimization)
-- ArcFace (face recognition & verification)
-- Mask R-CNN, MobileNet v2
-- Driver Monitoring Systems (DMS) with <150 ms latency
-- Model quantization & edge deployment
-
-### Generative AI & LLM Systems
-
-- Multi-agent LLM architectures
-- Mistral 7B, LLaMA 3 (70B)
-- Ollama, LangChain, HuggingFace
-- Intent classification & schema-aware SQL generation
-- Prompt engineering & evaluation pipelines
-
-### Data, Analytics & Geospatial
-
-- PostgreSQL, PostGIS, spatial queries
-- Dimensional modeling (search, direction, navigation layers)
-- Pydeck visualization, QGIS plugins
-- Automated 3D building generation from aerial & DEM data
-
-### Engineering & DevOps
-
-- Python, FastAPI, Shell Scripting
-- Docker, CI/CD, Git, JIRA
-- Streamlit-based AI applications
-- Linux & Windows environments
+| Area | What I build | Tools |
+|---|---|---|
+| **Computer Vision** | Real-time detection, face verification, multi-object tracking with re-ID | YOLO v5/v7/v8, ArcFace, Mask R-CNN, PyTorch, edge quantization |
+| **LLM & GenAI** | Multi-agent systems, NL-to-SQL, local generative video pipelines | Mistral, LLaMA 3, LangChain, Ollama, ComfyUI, FLUX, Wan2.2 |
+| **Automation** | LLM-powered scripts and content pipelines that replace manual work | Claude CLI, Bash, Python, Piper TTS, FFmpeg |
+| **Data & Geo** | Spatial analytics, dimensional models, QGIS tooling | PostgreSQL, PostGIS, Pydeck, QGIS, pandas |
+| **Engineering** | APIs, full-stack apps, containerized deploys | FastAPI, React, Docker, Caddy, CI/CD |
 
 ---
 
-## 🧠 Highlight Projects
+## 🚀 Featured open-source projects
 
-### Footfall Analysis LLM Agent Platform
+| Project | What it does | Stack |
+|---|---|---|
+| [**reid-arcface-pipeline**](https://github.com/susheel7860/reid-arcface-pipeline) | Multi-object tracking that keeps IDs stable through occlusions: YOLO detection + 512-d appearance embeddings + Hungarian matching | Python, PyTorch, Ultralytics |
+| [**automation-kit**](https://github.com/susheel7860/automation-kit) | Five runnable LLM automations for business busywork, plus a pipeline that auto-generates narrated demo videos | Bash, Claude CLI, Python, FFmpeg |
+| [**terminal-video-factory**](https://github.com/susheel7860/terminal-video-factory) | JSON in → captioned, narrated vertical video of a real terminal session out. No recorder, no editor | Python, asciinema, Piper, FFmpeg |
+| [**ai-automation-scripts**](https://github.com/susheel7860/ai-automation-scripts) | Small, readable LLM tools for admin work people still do by hand | Bash, Claude CLI |
+| [**amazon-food-review-system**](https://github.com/susheel7860/amazon-food-review-system) | Data-prep pipeline for review sentiment classification: profiling, labeling, dedup | Python, pandas |
+| [**lscripts-docker**](https://github.com/susheel7860/lscripts-docker) | Shell framework for reproducible ML workstations and Docker images | Bash, Docker, CUDA |
 
-- Multi-agent system converting natural language queries into BI insights
-- Processes **1M+ mobility records/day**
-- Schema-aware SQL generation with automated validation
-- Interactive spatial visualization using PostGIS + Pydeck
+## 🏗️ Production & private work
 
-### Driver Monitoring System (DMS)
+- **Footfall Analysis LLM Agent Platform:** multi-agent NL → SQL → BI insights over **1M+ mobility records/day** (Mistral 7B + LLaMA 3 70B, PostGIS).
+- **Driver Monitoring System:** real-time drowsiness/distraction detection, **97%+ accuracy**, **<150 ms** on edge devices.
+- **Local AI Video Factory:** one command from topic → animated, narrated episode, fully local on an 8 GB GPU (Ollama, FLUX, Wan2.2, ComfyUI API).
+- **PaisaWise:** full-stack spending tracker that parses order emails via Gmail (React 19, FastAPI, Docker, Capacitor).
+- **Geospatial AI:** QGIS plugins and city-scale automated 3D building generation (**65%** less manual effort).
 
-- Real-time detection of drowsiness & distraction
-- **97%+ accuracy**, optimized for edge devices
-- Production deployment in fleet systems
-
-### Geospatial AI & Automation
-
-- QGIS plugins for satellite imagery analysis
-- City-scale automated 3D building generation
-- 65% reduction in manual modeling effort
-
----
-
-## 📌 Interests
-
-- Applied AI & GenAI systems
-- Scalable ML infrastructure
-- Geospatial intelligence
-- Real-time & edge AI
+<sub>Private repos: walkthroughs available on request.</sub>
 
 ---
 
-## 🤝 Let’s Connect
+## 📊 GitHub stats
 
-If you’re working on AI, GenAI, Computer Vision, or Geospatial problems — let’s collaborate.
+<p>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=susheel7860&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=susheel7860&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
+
+---
+
+💬 Working on computer vision, GenAI or geospatial problems? [Let's talk](mailto:susheel123pandey@gmail.com).
