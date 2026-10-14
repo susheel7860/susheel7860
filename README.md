@@ -1,55 +1,40 @@
-# Hi, I'm Susheel Kumar Pandey 👋
+# Susheel Kumar Pandey
 
-### AI/ML Engineer: Computer Vision & LLM Automation
+### Senior Associate Technology Engineer | AI, Geospatial Platforms & GenAI
 
-Senior Software Engineer at **MapmyIndia** (New Delhi) with **5 years** shipping production ML: real-time vision on edge devices, multi-agent LLM platforms, and geospatial intelligence. I like taking papers and prototypes and turning them into systems that run reliably at scale.
+AI Engineer with **5+ years** in R&D, building production ML, LLM and geospatial systems. Currently at **ClarityX** (New Delhi); previously **MapmyIndia**.
 
-🌐 **Portfolio:** [susheel7860.github.io](https://susheel7860.github.io) · 💼 [LinkedIn](https://linkedin.com/in/susheel7860) · 📧 susheel123pandey@gmail.com
-
----
-
-## 🔭 What I work on
-
-| Area | What I build | Tools |
-|---|---|---|
-| **Computer Vision** | Real-time detection, face verification, multi-object tracking with re-ID | YOLO v5/v7/v8, ArcFace, Mask R-CNN, PyTorch, edge quantization |
-| **LLM & GenAI** | Multi-agent systems, NL-to-SQL, local generative video pipelines | Mistral, LLaMA 3, LangChain, Ollama, ComfyUI, FLUX, Wan2.2 |
-| **Automation** | LLM-powered scripts and content pipelines that replace manual work | Claude CLI, Bash, Python, Piper TTS, FFmpeg |
-| **Data & Geo** | Spatial analytics, dimensional models, QGIS tooling | PostgreSQL, PostGIS, Pydeck, QGIS, pandas |
-| **Engineering** | APIs, full-stack apps, containerized deploys | FastAPI, React, Docker, Caddy, CI/CD |
+🌐 [susheel7860.github.io](https://susheel7860.github.io) · 💼 [LinkedIn](https://linkedin.com/in/susheel7860) · 📧 susheel123pandey@gmail.com
 
 ---
 
-## 🚀 Featured open-source projects
+## 🧰 Core skills
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**reid-arcface-pipeline**](https://github.com/susheel7860/reid-arcface-pipeline) | Multi-object tracking that keeps IDs stable through occlusions: YOLO detection + 512-d appearance embeddings + Hungarian matching | Python, PyTorch, Ultralytics |
-| [**automation-kit**](https://github.com/susheel7860/automation-kit) | Five runnable LLM automations for business busywork, plus a pipeline that auto-generates narrated demo videos | Bash, Claude CLI, Python, FFmpeg |
-| [**terminal-video-factory**](https://github.com/susheel7860/terminal-video-factory) | JSON in → captioned, narrated vertical video of a real terminal session out. No recorder, no editor | Python, asciinema, Piper, FFmpeg |
-| [**ai-automation-scripts**](https://github.com/susheel7860/ai-automation-scripts) | Small, readable LLM tools for admin work people still do by hand | Bash, Claude CLI |
-| [**amazon-food-review-system**](https://github.com/susheel7860/amazon-food-review-system) | Data-prep pipeline for review sentiment classification: profiling, labeling, dedup | Python, pandas |
-| [**lscripts-docker**](https://github.com/susheel7860/lscripts-docker) | Shell framework for reproducible ML workstations and Docker images | Bash, Docker, CUDA |
-
-## 🏗️ Production & private work
-
-- **Footfall Analysis LLM Agent Platform:** multi-agent NL → SQL → BI insights over **1M+ mobility records/day** (Mistral 7B + LLaMA 3 70B, PostGIS).
-- **Driver Monitoring System:** real-time drowsiness/distraction detection, **97%+ accuracy**, **<150 ms** on edge devices.
-- **Local AI Video Factory:** one command from topic → animated, narrated episode, fully local on an 8 GB GPU (Ollama, FLUX, Wan2.2, ComfyUI API).
-- **PaisaWise:** full-stack spending tracker that parses order emails via Gmail (React 19, FastAPI, Docker, Capacitor).
-- **Geospatial AI:** QGIS plugins and city-scale automated 3D building generation (**65%** less manual effort).
-
-<sub>Private repos: walkthroughs available on request.</sub>
+| Area | Tools |
+|---|---|
+| **AI & ML** | YOLO (v5, v7, v8), ArcFace, Detectron2, object detection, face recognition, hyperparameter tuning, edge optimization, model quantization |
+| **Generative AI & LLMs** | Mistral 7B, LLaMA 3 70B, AWS Bedrock, Ollama, LangChain, HuggingFace, multi-agent systems, intent classification, SQL generation |
+| **Data & Geospatial** | PostgreSQL, PostGIS, Redis, dimensional modeling, Pydeck, QGIS, geospatial scoring |
+| **Backend & Architecture** | Python, FastAPI, Pydantic, Async SQLAlchemy, microservices, hexagonal architecture, plugin systems, REST APIs |
+| **Cloud & DevOps** | AWS (EC2, RDS, S3, Cognito, Verified Permissions, Secrets Manager), Docker, nginx, GitLab CI/CD, pytest, Linux |
 
 ---
 
-## 📊 GitHub stats
+## 🏗️ Selected work
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=susheel7860&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=susheel7860&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
+- **ATLAS: Geospatial Market-Intelligence Platform** (ClarityX): full backend of a multi-tenant retail site-selection platform on AWS. 55k LOC Python/FastAPI, 6 scoring engines, 18 plugins, CI-enforced hexagonal architecture, 20k LOC of tests; key p90 latencies cut by an order of magnitude.
+- **Footfall Analysis LLM Agent Platform** (ClarityX): production multi-agent system (Mistral 7B intent agent, LLaMA 3 70B SQL generator) turning natural language into BI over **1M+ daily mobility records**.
+- **LLM Semantic Search** (MapmyIndia): multilingual intent-based place search, **+35%** discovery accuracy.
+- **Driver Monitoring System** (MapmyIndia): real-time drowsiness/distraction detection with YOLO v7, **97%+ accuracy**, **<150 ms**, quantized for edge.
+- **Face Verification** (MapmyIndia): ArcFace driver identity verification, 89%+ in low light, 1000+ daily verifications.
+- **Geospatial AI** (MapmyIndia): QGIS satellite-imagery plugins (+25% data accuracy) and automated 3D city models (−65% manual effort).
+
+## 📂 Open source
+
+| Project | Description |
+|---|---|
+| [**reid-arcface-pipeline**](https://github.com/susheel7860/reid-arcface-pipeline) | Multi-object tracking with stable IDs through occlusions: YOLO detection, 512-d appearance embeddings, Hungarian matching |
 
 ---
 
-💬 Working on computer vision, GenAI or geospatial problems? [Let's talk](mailto:susheel123pandey@gmail.com).
+🎓 B.Tech, Computer Science & Engineering, GLA University, Mathura (2021)
